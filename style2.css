@@ -1,0 +1,57 @@
+/* About Us Page CSS */
+
+/* Navigation */
+.navbar {
+    background-color: #7E57C2 !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: bold !important;
+}
+
+/* Icons */
+.fa-shopping-cart,
+.fa-user-circle-o {
+    font-size: 32px !important;
+}
+
+/* Main Heading */
+.mainHeading {
+    height: 240px;
+    background: #4b6cb7;
+    /* For older browsers */
+    background: -webkit-linear-gradient(to bottom, #182848, #4b6cb7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #182848, #4b6cb7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    padding: 90px;
+}
+
+/* Introduction section */
+.intro-text {
+    padding-left: 130px;
+    padding-right: 130px;
+    justify-content: center;
+}
+
+.intro {
+    margin-bottom: 50px;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    background-color: #7E57C2;
+    height: 70px;
+}
+
+.footer>div {
+    text-align: center !important;
+    align-items: center;
+}
+
+h4 {
+    color: #fff;
+}

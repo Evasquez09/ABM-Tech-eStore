@@ -1,0 +1,112 @@
+/* Contact Us Page CSS */
+
+/* Navigation */
+.navbar {
+    background-color: #7E57C2 !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: bold !important;
+}
+
+/* Icons */
+.fa-shopping-cart,
+.fa-user-circle-o {
+    font-size: 32px !important;
+}
+
+/* Main Heading */
+.main-heading {
+    height: 240px;
+    background: #4b6cb7;
+    /* For older browsers */
+    background: -webkit-linear-gradient(to bottom, #182848, #4b6cb7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #182848, #4b6cb7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.head-text {
+    color: #fff;
+    padding-top: 90px;
+}
+
+/* Map */
+.map-frame {
+    text-align: center;
+    width: 100%;
+}
+
+iframe {
+    width: 600px;
+}
+
+/* Contact Form */
+.contact-form{
+    background: #fff;
+    background: -webkit-linear-gradient(left, #0072ff, #00c6ff) !important;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #fff;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    background-color: #7E57C2;
+    height: 70px;
+}
+
+.footer>div {
+    text-align: center !important;
+    align-items: center;
+}
+
+h4 {
+    color: #fff;
+}

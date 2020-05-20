@@ -1,0 +1,82 @@
+/* Computer Accessories Page CSS */
+
+/* Navigation */
+.navbar {
+    background-color: #7E57C2 !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: bold !important;
+}
+
+/* Icons */
+.fa-shopping-cart,
+.fa-user-circle-o {
+    font-size: 32px !important;
+}
+
+/* Main Heading */
+.main-heading {
+    height: 240px;
+    background: #4b6cb7;
+    /* For older browsers */
+    background: -webkit-linear-gradient(to bottom, #182848, #4b6cb7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #182848, #4b6cb7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.head-text {
+    color: #fff;
+    padding-top: 90px;
+}
+
+/* Products Section */
+.products {
+    margin-top: 50px;
+}
+
+.card {
+    width: 250px;
+    height: auto !important;
+    margin-bottom: 5px;
+}
+
+.card-text {
+    font-weight: bold;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: #7E57C2;
+}
+
+.heading {
+    text-align: center;
+    font-weight: bold;
+    color: #7E57C2;
+    margin: 20px;
+}
+
+.heading>h1 {
+    text-shadow: 2px 2px 4px black;
+}
+
+
+
+/* Footer */
+.footer {
+    width: 100%;
+    background-color: #7E57C2;
+    height: 70px;
+}
+
+.footer>div {
+    text-align: center !important;
+    align-items: center;
+}
+
+h4 {
+    color: #fff;
+}
