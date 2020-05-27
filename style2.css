@@ -60,3 +60,20 @@
 h4 {
     color: #fff;
 }
+
+/* Media Query for Responsive */
+@media screen and (max-width: 380px) { 
+    .mainHeading h1 {
+        font-size: 30px;
+    }
+
+    .intro-text {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .about-text {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
